@@ -1,0 +1,31 @@
+.projects{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.projectCard{
+    border-radius: 0.5rem;
+    width:15rem;
+    height:15rem;
+    margin:2rem;
+    padding:2.5em;
+    background-color:#21325e;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.projectCard p{
+    margin:5px;
+    text-align: center;
+}
+
+.links a{
+    display:flex;
+    text-decoration: none;
+    color:#e9d35b;
+    margin:5px;
+}

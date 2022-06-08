@@ -1,0 +1,14 @@
+.home{
+    background-color:white;
+    color:#21325e;
+    height: 80vh;
+    padding: 5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h4{
+    margin:0.5rem;
+}
